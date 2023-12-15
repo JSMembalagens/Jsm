@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+section {
+  background-image: url(../imagem/testef.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+
+}
+
+
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: 'poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  max-width: 70rem;
+}
+
+.text-content h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+.text-content p {
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.lo {
+  width: 31.25rem;
+  align-items: center;
+  display: flex;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+.fund2 {
+
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 1rem;
+
+}
+
+.cont2 {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+
+@media (max-width: 600px) {
+  .fund2 {
+    padding: 1rem;  
+    max-width: 28rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .lo {
+    width: 15rem;
+  }
+
+
+}
+
+
+@media (max-width: 500px) {
+  .fund2 {
+    padding: 1rem;  
+    max-width: 23rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .lo {
+    width: 15rem;
+  }
+
+
+}
+
+@media (max-width: 376px) {
+  .fund2 {
+    padding: 1rem;  
+    max-width: 20rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .lo {
+    width: 15rem;
+  }
+
+
+}
+
